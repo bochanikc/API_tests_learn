@@ -4,10 +4,14 @@ The project was created to study API testing.
 It is built on pytest + requests module.
 
 Example of running tests:
-`pytest -s -v test_api_example.py`
+`pytest -v -s --token 6a6ce206-f039-89ab-b4d0-952604450046 --url https://api.weather.yandex.ru`
 
 Parameters:
  
-`--url` `-U`:
+`--url`:
     
     URL for tests
+    
+`--token`:
+    
+    Token for Yandex API
